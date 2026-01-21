@@ -1,0 +1,9 @@
+order_id,order_date,delivery_date,expected_delivery_date,order_status,region
+1001,2024-01-02,2024-01-05,2024-01-04,Delivered,North
+1002,2024-01-03,2024-01-06,2024-01-05,Delivered,South
+1003,2024-01-04,2024-01-08,2024-01-06,Delivered,East
+1004,2024-01-05,,2024-01-07,Pending,West
+1005,2024-01-06,2024-01-06,2024-01-06,Delivered,North
+1006,2024-01-07,2024-01-10,2024-01-08,Delivered,South
+1007,2024-01-08,,2024-01-09,Pending,East
+1008,2024-01-09,2024-01-12,2024-01-10,Delivered,West
