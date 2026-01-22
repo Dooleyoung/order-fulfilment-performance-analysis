@@ -1,10 +1,10 @@
 # Order Fulfillment Performance Analysis
 
 ## Overview
-This project analyzes order fulfillment performance using operational data to evaluate delivery efficiency and identify bottlenecks.
+This project evaluates order fulfillment performance using operational data to assess delivery efficiency, timeliness, and regional performance.
 
 ## Business Problem
-Organizations often lack visibility into fulfillment KPIs such as delivery delays, fulfillment rate, and regional performance, leading to poor customer satisfaction.
+Organizations often face challenges in tracking fulfillment efficiency, identifying delivery delays, and understanding regional operational gaps. Lack of visibility into these KPIs negatively impacts customer satisfaction and operational planning.
 
 ## Dataset
 The dataset contains order-level information including order dates, delivery dates, expected delivery dates, order status, and regions.
@@ -13,21 +13,48 @@ The dataset contains order-level information including order dates, delivery dat
 - Python
 - Pandas
 - Matplotlib
+- Jupyter Notebook
 
-## Key KPIs
+## Key KPIs Analyzed
 - Order Fulfillment Rate
 - Average Delivery Time
 - Late Delivery Percentage
+- Regional Delivery Performance
 
 ## Key Insights
-- Identified regions with longer average delivery times
-- Detected late deliveries impacting fulfillment performance
-- Highlighted operational gaps affecting customer satisfaction
+- Not all orders are successfully fulfilled, indicating operational gaps.
+- Delivery delays vary by region, suggesting logistics inefficiencies.
+- Late deliveries impact overall fulfillment performance and customer satisfaction.
 
 ## Recommendations
-- Improve logistics planning in high-delay regions
-- Introduce automated KPI monitoring
-- Optimize delivery timelines to reduce late deliveries
+- Improve logistics planning in high-delay regions.
+- Implement automated KPI monitoring dashboards.
+- Optimize delivery scheduling and performance tracking.
+
+---
+
+## Automated Operations Reporting with Python
+
+### Overview
+This project automates the process of cleaning raw operational data and generating summary reports using Python.
+
+### Problem
+Manual reporting processes are time-consuming and prone to errors.
+
+### Solution
+A Python automation script was developed to:
+- Load raw sales data
+- Clean and validate data
+- Generate summary reports by region
+- Export reports automatically
+
+### Tools Used
+- Python
+- Pandas
+
+### Outcome
+The automation improves reporting efficiency, reduces manual effort, and ensures data accuracy.
+
 
 ## Author
 Quadri Omotosho
